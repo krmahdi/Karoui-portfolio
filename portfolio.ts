@@ -284,8 +284,8 @@ export const seoData: SEODataType = {
   description:
     'Un developpeur web FullStack passionné',
   author: 'Ibn Elkaroui Mahdi',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  image: 'https://avatars.githubusercontent.com/u/131217844?s=96&v=4',
+  url: 'https://karoui-portfolio-ar6e2oywc-mahdikarouis-projects.vercel.app/',
   keywords: [
     'Mahdi',
     'Mahdi karoui',
