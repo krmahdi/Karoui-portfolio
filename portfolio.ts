@@ -110,12 +110,12 @@ export const skillsSection: SkillsSectionType = {
       title: 'Outils et Méthodologies:',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ connaissance des methologie Agile/Scrum...Motivé pour les projets collaboratif  '),
+        emoji('⚡ Connaissance des methologie Agile/Scrum...Motivé pour les projets collaboratif  '),
         emoji(
-          '⚡ Maitrise de git,Docker,Linux et leurs CMD'
+          '⚡ Maîtrise de git,Docker,Linux et leurs CMD'
         ),
         emoji(
-          '⚡ construction des  CI/CD pipelines pour les tests automatisés g & deployment avec Github Actions'
+          '⚡ Construction des  CI/CD pipelines pour les tests automatisés g & deployment avec Github Actions'
         ),
       ],
       softwareSkills: [
@@ -173,6 +173,7 @@ export const SkillBars: SkillBarsType[] = [
     Stack: 'Programmation',
     progressPercentage: '70',
   },
+ 
 ];
 
 export const educationInfo: EducationType[] = [
@@ -221,7 +222,8 @@ export const experience: ExperienceType[] = [
     company: 'Freelance',
     companyLogo: '',
     date: 'Mai 2023 - Juil 2023',
-    desc: 'developper une application de gestion de stock pour une socièté de confection en utilisant SpringBoot/Angular ',
+    desc: 'Contribution avec une équipe au développement un module de gestion de stock pour une socièté de confection en utilisant SpringBoot/Angular ',
+    
   },
   {
     role: 'Stagiaire FullStack SpringBoot/Angular',
@@ -240,20 +242,22 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'SuperMarket-Management-System',
-    desc: 'Conception et developpement une interface de gestion des SuperMarket en utilisant SceneBuilder et JavaFx et MySQL',
-    github: '',
-    link: 'https://drive.google.com/file/d/1f-trSb8Gq5ZzXIseAtUjQIyIH8Ai4Dh6/view?usp=drive_link',
-  },
-  {
     name: 'Application de gestion des colocation pour les étudiants',
     desc: 'proposer,concevoir et developper cet application comme un projet de fin d année en utilisant les technologies de spring boot, Angular, Bootstrap,MySQL  ',
-    github: '',
+    github: 'https://github.com/krmahdi/sudent-col',
+    link:'https://drive.google.com/file/d/1f-trSb8Gq5ZzXIseAtUjQIyIH8Ai4Dh6/view?usp=drive_link'
   },
+  {
+    name: 'SuperMarket-Management-System',
+    desc: 'Conception et developpement une interface de gestion des SuperMarket en utilisant SceneBuilder et JavaFx et MySQL',
+    github: 'https://github.com/krmahdi/supermarket-javafx',
+   
+  },
+ 
   {
     name: 'Car-Rental ',
     desc: 'Projet de gestion de location des voiture avec spring-boot',
-    github: '',
+    github: 'https://github.com/krmahdi/Car-rent',
   },
   {
     name: 'Jeux Motus',
